@@ -1,6 +1,6 @@
 const searchHistory = [];
 const weatherApiRootUrl = 'https://api.openweathermap.org';
-const weatherApiKey = 'd91f911bcf2c0f925fb6535547a5ddc9';
+const weatherApiKey = '71335ba6c0db583974b1d16c33cd8470';
 
 
 
@@ -254,7 +254,7 @@ function handleSearchFormSubmit(e) {
 
 function handleSearchHistoryClick(e) {
 
-    
+
   if (!e.target.matches('.btn-history')) {
     return;
   }
