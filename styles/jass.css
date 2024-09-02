@@ -1809,3 +1809,47 @@ label form [type='radio'] {
   background-color: #FFCA28;
   color: #212121;
 }
+
+.layout-reversed {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #FFEB3B;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  background-color: #FFF3E0;
+  overflow-y: auto;
+}
+
+.weather-section,
+.forecast-section {
+  margin-bottom: 20px;
+  background-color: #FFE0B2;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+.search-btn {
+  width: 100%;
+  background-color: #FFCA28;
+  color: #212121;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.search-btn:hover {
+  background-color: #FFD54F;
+}
+
